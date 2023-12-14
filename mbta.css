@@ -1,3 +1,20 @@
+body {
+  margin: 0;
+  min-height: 3000px;
+  font-family: "Montserrat", sans-serif;
+  background: url('Assets/Images/Map.jpeg') center center fixed;
+  background-size: cover;
+}
+
+.outer-container {
+  max-width: 800px; /* Increase the max-width as needed */
+  margin: 50px auto; /* Adjust the margin values as needed */
+  width: 90%;
+  padding: 50px 300px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
 .parallax-title {
   z-index: 1;
 }
@@ -6,6 +23,8 @@
   position: relative;
   max-width: 2000px; /* Adjust this value as needed */
   margin: auto;
+  background-color: rgba(255, 255, 255, 0.8); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
 }
 
 .slide-content {
@@ -79,7 +98,7 @@ body {
   max-width: 600px;
   margin: auto;
   width: 90%;
-  padding: 100px 0px;
+  padding: 100px 50px;
   position: relative;
 }
 
@@ -122,7 +141,9 @@ body {
 .below-slideshow {
   max-width: 600px;
   margin: auto;
-  padding: 20px 0; /* Adjust padding as needed */
+  padding: 20px 50px; /* Adjust padding as needed */
+  background-color: rgba(255, 255, 255, 0.8); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
 }
 
 .new-paragraph {
